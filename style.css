@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin-top: 20px;
+    font-family: "Poppins";
+    margin: 70px;
+    margin-top: 25px;
+}
+.ativo {
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* hr {
+    border-color: #a9a8a8;
+    border: 0.5;
+    height: 0.5px;
+} */
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a:hover {
+    font-weight: bold;
+    
+}
+h1 {
+    color: #516EE3;
+    margin: 0;
+}
+.carrinho {
+    width: 40px;
+}
+.botao_carrinho {
+    border: 0;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+article {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #829BFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.sc_promo {
+    display: flex;
+    flex-direction: column;
+}
+.livros {
+    width: 300px;
+}
+.cupom {
+    background-color: #FFDA5E;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    height: 45px;
+    margin-left: 100px;
+}
+.promocao {
+    width: 450px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+h2 {
+    font-weight: 400;
+    margin-left: 20px;
+}
+.livro_promo {
+    display: flex;
+
+}
+.promo_livros {
+    width: 130px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.recomendados {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #E4ECFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    box-shadow: 2px -2px 5px rgba(185, 185, 185, 0.5);
+}
+.recom_livros {
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
