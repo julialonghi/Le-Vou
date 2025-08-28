@@ -17,6 +17,7 @@ Imagens do Protótipo
 
 <img width="1440" height="2048" alt="Frame 21" src="https://github.com/user-attachments/assets/84ebe8b5-ff57-4b96-bf68-ede4f1c78369" />
 <img width="1440" height="1024" alt="Wireframe - 14" src="https://github.com/user-attachments/assets/46a20f7f-3c67-4cdf-9419-8aafb60e50a5" />
+
 <img width="1536" height="1062" alt="Wireframe - 12" src="https://github.com/user-attachments/assets/a4f50f4e-45de-4f45-b34e-93e3f9e4eac6" />
 
 Caráter Extensionista
