@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-    margin-top: 20px;
-    font-family: "Poppins";
-    margin: 70px;
     margin-top: 25px;
+    font-family: "Poppins";
+    /* margin: 70px;
+    margin-top: 25px; */
+    margin: 0;
 }
 .ativo {
     font-weight: bold;
@@ -12,6 +13,8 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 /* hr {
     border-color: #a9a8a8;
@@ -44,6 +47,8 @@ h1 {
 article {
     margin-top: 20px;
     margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: #829BFF;
     border-radius: 10px;
     display: flex;
@@ -78,11 +83,13 @@ article {
 }
 h2 {
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 90px;
+    margin-right: 70px;
 }
 .livro_promo {
     display: flex;
-
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .promo_livros {
     width: 130px;
@@ -101,6 +108,9 @@ h2 {
     padding-bottom: 20px;
     padding-top: 5px;
     box-shadow: 2px -2px 5px rgba(185, 185, 185, 0.5);
+}
+.recomendados h2 {
+    margin-left: 30px;
 }
 .recom_livros {
     width: 180px;
@@ -141,4 +151,46 @@ h2 {
 }
 .valores p {
     margin-top: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7A7A7F;
+    color: white;
+    margin-top: 60px;
+    padding: 30px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+footer h1 {
+    color: white;
+    font-size: 30px;
+}
+.rodape h2 {
+    margin: 0;
+    font-weight: bold;
+}
+.formu{
+    border-radius: 30px;
+    border-style: none;
+    background-color: #f8f7f7;
+    border-color: #f8f7f7;
+    padding: 10px;
+}
+.form {
+    border-radius: 30px;
+    border-style: none;
+    background-color: #829BFF;
+    color: white;
+    padding: 10px;
+}
+div {
+    background-color: #f8f7f7;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.ft_email {
+    width: 20px;
+    padding-left: 10px;
 }
