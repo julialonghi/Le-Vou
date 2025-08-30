@@ -45,7 +45,7 @@ h1 {
     height: 40px;
 }
 article {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 70px;
     margin-right: 70px;
@@ -193,4 +193,34 @@ div {
 .ft_email {
     width: 20px;
     padding-left: 10px;
+}
+.perg {
+    border-radius: 15px;
+    border-style: none;
+    background-color: #E6E6E6;
+    padding: 10px;
+    padding-left: 20px;
+    width: 700px;
+    font-size: small;
+}
+container div {
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin-left: 70px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
+}
+container .form {
+    padding: 13px;
+    width: 100px;
+    font-size: small;
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 10px; */
+    border-radius: 15px;
 }
