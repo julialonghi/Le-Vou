@@ -223,6 +223,7 @@ container .form {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 10px; */
     border-radius: 15px;
+
 }
 .conj_promo {
     width: 730px;
@@ -234,5 +235,24 @@ container .form {
     width: 340px;
 }
 .pop_livros {
-    
+    width: 100px;
 }
+.livro_pop {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.div_propag img {
+    width: 200px;
+}
+.populares {
+    width: 750px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div_propag {
+    width: 300px;
+} 
