@@ -236,6 +236,7 @@ container .form {
 }
 .pop_livros {
     width: 100px;
+    border-radius: 5px;
 }
 .livro_pop {
     width: 500px;
