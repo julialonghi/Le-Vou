@@ -224,3 +224,15 @@ container .form {
     border-top-left-radius: 10px; */
     border-radius: 15px;
 }
+.conj_promo {
+    width: 730px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.conj_promo img {
+    width: 340px;
+}
+.pop_livros {
+    
+}
