@@ -203,7 +203,7 @@ div {
     width: 700px;
     font-size: small;
 }
-container div {
+.busca {
     background-color: #E6E6E6;
     border-radius: 30px;
     border-top-right-radius: 15px;
@@ -257,3 +257,24 @@ container .form {
 .div_propag {
     width: 300px;
 } 
+.pai_livros {
+    display: flex;
+    flex-direction: column;
+}
+container {
+    display: flex;
+}
+.mais_procurados {
+    display: flex;
+    flex-direction: column;
+}
+.mais_procurados section {
+    height: 167px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: end;
+}
+.mais_procurados h2 {
+    margin-top: 30px;
+}
