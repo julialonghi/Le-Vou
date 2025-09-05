@@ -183,7 +183,7 @@ footer h1 {
     color: white;
     padding: 10px;
 }
-div {
+.email {
     background-color: #f8f7f7;
     border-radius: 30px;
     display: flex;
@@ -267,15 +267,53 @@ container {
     display: flex;
     flex-direction: column;
 }
-.mais_procurados section {
+.livro_mais_vendido {
     height: 167px;
     margin-left: 100px;
     margin-top: 20px;
+    margin-bottom: 30px;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 .mais_procurados h2 {
     margin-top: 30px;
+}
+.mais_procurados h2 {
+    margin-top: 30px;
+}
+.sobre_livro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.sobre_livro p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.sobre_livro h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #3E3C3C;
+    font-weight: 600;
+}
+.avaliacao {
+    margin: 0px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+.avaliacao img {
+    width: 15px;
+    height: 15px;
+}
+.avaliacao p {
+    font-size: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: #3E3C3C;
 }
 nav {
     align-items: center;
