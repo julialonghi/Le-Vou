@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Lê-Vou </title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
-    <nav>
-        <h1> Lê-Vou </h1>
-        <a class="ativo" href="index.html"> Início </a>
-        <a href="livros.html"> Livros </a>
-        <a href="meusLivros.html"> Meus Livros </a>
-        <a href="conta.html"> Conta </a>
-        <button class="botao_carrinho"> <a href="carrinho.html"> <img class="carrinho" src="carrinho.png"></a></button>
+    <nav id="site-menu" aria-expanded="false">
+        <button class="menu-toggle" aria-label="Abrir menu">
+            <img src="menu.png" alt="Menu">
+        </button>
+        <h1 class="nome-site"> Lê-Vou </h1>
+        <a class="ativo" href="index.html">Início</a>
+        <a href="livros.html">Livros</a>
+        <a href="meusLivros.html">Meus Livros</a>
+        <a href="conta.html">Conta</a>
+
+        <a class="botao_carrinho" href="carrinho.html">
+            <img class="carrinho" src="carrinho.png" alt="Carrinho">
+        </a>
     </nav>
+
+
     <!-- <hr> -->
     <article>
         <section class="sc_promo">

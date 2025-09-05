@@ -29,7 +29,6 @@ a {
 }
 nav a:hover {
     font-weight: bold;
-    
 }
 h1 {
     color: #516EE3;
@@ -223,8 +222,8 @@ container .form {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 10px; */
     border-radius: 15px;
-
 }
+
 .conj_promo {
     width: 730px;
     margin-left: 80px;
@@ -256,7 +255,7 @@ container .form {
 }
 .div_propag {
     width: 300px;
-} 
+}
 .pai_livros {
     display: flex;
     flex-direction: column;
@@ -277,4 +276,153 @@ container {
 }
 .mais_procurados h2 {
     margin-top: 30px;
+}
+nav {
+    align-items: center;
+    background: #fff;
+    z-index: 100;
+}
+.menu-toggle {
+    display: none;
+    border: 0;
+    background: transparent;
+    padding: 6px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+.menu-toggle img {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    nome-site {
+        display: none;
+    }
+    nav {
+        margin: 0;
+        padding: 10px 14px;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 0;
+    }
+    .botao_carrinho {
+        order: 2;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav > a:not(.botao_carrinho) {
+        display: none;
+    }
+    nav[aria-expanded="true"] > a:not(.botao_carrinho) {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        padding: 12px 4px;
+        margin: 0;
+    }
+    nav[aria-expanded="true"]::after {
+        content: "";
+        display: block;
+        width: 100%;
+    }
+    #site-menu {
+        position: relative;
+        flex-wrap: wrap;
+    }
+    #site-menu[aria-expanded="true"] > a:not(.botao_carrinho) {
+        background: #fff;
+        border-top: 1px solid rgba(0,0,0,0.06);
+    }
+    article {
+        margin: 16px;
+        padding: 16px;
+        align-items: center;
+        gap: 12px;
+    }
+    .promocao {
+        width: min(100%, 360px);
+    }
+    .livros {
+        width: min(100%, 260px);
+    }
+    .cupom {
+        margin-left: 0;
+        width: 100%;
+        max-width: 320px;
+        font-size: 18px;
+        height: 42px;
+    }
+    h2 {
+        margin: 16px;
+    }
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px;
+    }
+    .busca, .conj_promo, .populares, .valores {
+        width: 100%;
+        margin: 12px 0;
+        justify-content: center;
+    }
+    .valores {
+        gap: 16px;
+        justify-content: space-around;
+    }
+    .livro_promo {
+        display: flex;
+        justify-content: flex-start;
+        gap: 14px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        flex-wrap: nowrap;
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .livro_promo::-webkit-scrollbar {
+        height: 8px;
+    }
+    .livro_promo::-webkit-scrollbar-thumb {
+        background: rgba(0,0,0,.2);
+        border-radius: 8px;
+    }
+    .promo_livros {
+        flex: 0 0 auto;
+        width: 130px;
+        margin: 0;
+        border-radius: 8px;
+    }
+    .recomendados .titulos,
+    .recomendados .autores,
+    .recomendados .valores,
+    .recomendados h2,
+    .recomendados p,
+    .recomendados span,
+    .recomendados small {
+        display: none;
+    }
+    .recomendados {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .recom_livros {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border-radius: 5px;
+    }
 }
