@@ -315,6 +315,31 @@ container {
     font-weight: 500;
     color: #3E3C3C;
 }
+.generos_juntos {
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.genero {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #e4e4e4;
+    border: none;
+}
+.sobre_gen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre_gen h5 {
+    font-weight: 500;
+    margin-top: 10px;
+}
+.sobre_gen img {
+    width: 70px;
+}
 nav {
     align-items: center;
     background: #fff;
