@@ -338,6 +338,61 @@ container {
 .sobre_gen img {
     width: 70px;
 }
+.cadastro {
+    width: 200px;
+    border-radius: 30px;
+    background-color: #32ADE6;
+    padding: 10px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
+}
+.venda {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.livro_vendido {
+    height: 167px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.sobre_livro h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.venda_livro {
+    width: 150px;
+    margin-right: 10px;
+}
+.estado {
+    display: flex;
+    justify-content: flex-end;
+}
+.estado h5 {
+    background-color: #34C759;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: medium;
+}
+.vender p {
+    margin-top: 70px;
+}
+.vendidos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 220px;
+    margin-left: 90px;
+}
 nav {
     align-items: center;
     background: #fff;
