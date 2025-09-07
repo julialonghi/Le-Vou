@@ -239,17 +239,22 @@ container .form {
     width: 500px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .div_propag img {
     width: 200px;
 }
 .populares {
-    width: 750px;
+    width: 500px;
     margin-left: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
+}
+.promo img {
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 30px;
 }
 .div_propag {
     width: 300px;
@@ -392,6 +397,74 @@ container {
     justify-content: space-between;
     margin-right: 220px;
     margin-left: 90px;
+}
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.5); 
+}
+.popup-conteudo {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 80%;
+}
+.fechar-popup {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.fechar-popup:hover,
+.fechar-popup:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.popup-conteudo h2 {
+    margin-left: 30px;
+}
+.ft_livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.ft_livro img {
+    width: 170px;
+    margin-bottom: 30px;
+}
+.agrup_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_cad {
+    margin-right: 250px;
+}
+.f {
+    background-color: #ece9e9;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.form_cad .formu {
+    background-color: #ece9e9;
+    width: 170px;
 }
 nav {
     align-items: center;
