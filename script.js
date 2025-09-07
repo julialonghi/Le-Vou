@@ -18,3 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') setOpen(false)
   })
 })
+
+function abrirPopup() {
+  document.getElementById("Popup").style.display = "block";
+}
+
+function fecharPopup() {
+  document.getElementById("Popup").style.display = "none";
+}
