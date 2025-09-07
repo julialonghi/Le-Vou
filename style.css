@@ -204,9 +204,7 @@ footer h1 {
 }
 .busca {
     background-color: #E6E6E6;
-    border-radius: 30px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     width: 750px;
