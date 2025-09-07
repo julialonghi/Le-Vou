@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Lê-Vou </title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
@@ -18,8 +18,32 @@
     </nav>
     <section class="venda">
         <h2> Livros à venda </h2>
-        <a class="cadastro" href="#"> Cadastrar novo livro </a>
+        <button class="cadastro" onclick="abrirPopup()"> Cadastrar novo livro </button>
     </section>
+    <div id="Popup" class="popup">
+        <div class="popup-conteudo">
+            <span class="fechar-popup" onclick="fecharPopup()">&times;</span>
+            <h2> Cadastre seu livro </h2>
+            <container class="agrup_form">
+                <section class="ft_livro">
+                    <img src="add_livro.png">
+                    <button class="cadastro"> Cadastrar </button>
+                </section>
+                <section class="form_cad">
+                    <p class="f"> Título: <input class="formu" type="text" placeholder="Digite o título"></p>
+                    <p class="f"> Autor: <input class="formu" type="text" placeholder="Digite o autor"></p>
+                    <p class="f"> Número de páginas: <input class="formu" type="number" placeholder="Digite o nº de páginas"></p>
+                    <p class="f"> Valor: <input class="formu" type="number" placeholder="Digite o valor"></p>
+                    <p class="f"> Condição: <input type="checkbox" value="otimo"> Ótimo  
+                                            <input type="checkbox" value="bom"> Bom
+                                            <input type="checkbox" value="regular"> Regular </p>
+                    <p class="f"> Descrição: <input class="formu" type="text" placeholder="Digite a descrição"></p>
+                    <p class="f"> Add fotos: <input class="formu" type="text" placeholder="Adicione as imagens"></p>
+                </section>
+            </container>
+            
+        </div>
+    </div>
     <container class="vendidos">
         <section class="livro_vendido">
             <img class="venda_livro" src="livro_vender1.jpg">
