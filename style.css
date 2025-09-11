@@ -892,10 +892,10 @@ nav {
 .conta {
     max-width: 1000px;
     margin: 2px auto;
+    margin-top: 40px;
     padding: 0 1px;
 }
 
-/*Ana mexeu */
 .perfil_decima {
     display: flex;
     justify-content: space-between;
@@ -910,16 +910,19 @@ nav {
 
 .editar_perfil {
     background: white;
-    border: 1px solid #ccc;
-    padding: 10px 16px; 
-    border-radius: 10px;
-    font-size: 14px; 
+    width: 150px;
+    border-radius: 20px;
+    border: 3px solid #E4ECFF;
+    background-color: white;
+    padding: 10px;
+    color: #32ADE6;
+    font-size: medium;
+    box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.profile-main {
+.perfil_pai {
     display: flex;
     align-items: center;
     gap: 24px; 
@@ -940,75 +943,78 @@ nav {
     object-fit: cover;
 }
 
-.profile-info h2 {
+.perfil-info h2 {
     margin: 0;
     font-size: 19px; 
     font-weight: bold;
 }
 
-.profile-info p {
+.perfil-info p {
     margin: 0;
     font-size: 14px;
     color: #777;
 }
 
-/* Stats */
-.stats {
+/* INFO ADICIONAIS */
+.status {
     display: flex;
     gap: 16px; 
     margin-bottom: 24px; 
 }
 
-.stat {
+.status1 {
     flex: 1;
     background: #eaf2ff;
     border-radius: 15px;
-    padding: 16px; 
+    padding: 20px; 
     text-align: center;
 }
 
-.stat .value {
+.status1 .value {
     font-size: 22px;
     font-weight: bold;
 }
 
-.stat .label {
+.status1 .label {
     font-size: 13px; 
     color: #555;
     font-weight: 500;
 }
 
-.orders-btn {
+.pedidos {
     width: 100%;
     padding: 16px; 
-    border: 2px solid #ddd;
-    border-radius: 12px;
+    border: 3px solid #E4ECFF;
+    border-radius: 20px;
+    background-color: white;
     background: white;
-    color: #4a6cf7;
+    color: #32ADE6;
+    border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 32px;
+    box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
 }
 
-/* Bio & Genres */
-.section {
+/* Bio & generos */
+.sessão {
     margin-bottom: 32px;
 }
 
-.section-header {
+.sessão-topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8px; 
 }
 
-.section-header h3 {
+.sessão-topo h3 {
     margin: 0;
     font-size: 16px;
     font-weight: bold;
 }
 
-.section-header button {
+.sessão-topo button {
     background: none;
     border: none;
     color: #777;
@@ -1016,71 +1022,63 @@ nav {
     cursor: pointer;
 }
 
-.bio-text {
+.bio-texto {
     font-size: 14px;
     color: #555;
 }
 
-.genres {
+.generos {
     display: flex;
     gap: 13px;
     flex-wrap: wrap;
 }
 
-.genre {
-    padding: 8px 19px;
+.generos {
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 15px 30px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
-    cursor: default;
+    
 }
 
-.genre.romance {
+.generos.romance {
     background: #f9b3d1;
 }
 
-.genre.suspense {
+.generos.suspense {
     background: #a8d5a2;
 }
 
-.genre.ficcao {
+.generos.ficcao {
     background: #a3d2f0;
 }
 
 /* Favorites */
-.favorites-header {
+.favoritos {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-bottom: 16px;
 }
 
-.favorites-header h2 {
+.favoritos h2 {
     margin: 0;
     font-size: 22px;
     font-weight: bold;
 }
 
-.heart {
-    width: 30px;
-    height: 30px;
-    background: red;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 14px;
-}
 
-.favorites-list {
+.favoritos-lista {
     display: flex;
     gap: 16px; 
     overflow-x: auto;
     padding-bottom: 16px; 
 }
 
-.favorites-list img {
+.favoritos-lista img {
     width: 120px;
     border-radius: 8px;
     flex-shrink: 0;
