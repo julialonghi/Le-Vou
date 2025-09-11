@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     margin-top: 25px;
     font-family: "Poppins";
@@ -6,9 +7,11 @@ body {
     margin-top: 25px; */
     margin: 0;
 }
+
 .ativo {
     font-weight: bold;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -16,6 +19,7 @@ nav {
     margin-left: 70px;
     margin-right: 70px;
 }
+
 /* hr {
     border-color: #a9a8a8;
     border: 0.5;
@@ -27,22 +31,27 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 nav a:hover {
     font-weight: bold;
 }
+
 h1 {
     color: #516EE3;
     margin: 0;
 }
+
 .carrinho {
     width: 40px;
 }
+
 .botao_carrinho {
     border: 0;
     background-color: white;
     width: 40px;
     height: 40px;
 }
+
 article {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -56,15 +65,18 @@ article {
     padding-right: 60px;
     padding-bottom: 20px;
     padding-top: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .sc_promo {
     display: flex;
     flex-direction: column;
 }
+
 .livros {
     width: 300px;
 }
+
 .cupom {
     background-color: #FFDA5E;
     border-radius: 20px;
@@ -75,26 +87,31 @@ article {
     height: 45px;
     margin-left: 100px;
 }
+
 .promocao {
     width: 450px;
     margin-bottom: 10px;
     margin-top: 5px;
 }
+
 h2 {
     font-weight: 400;
     margin-left: 90px;
     margin-right: 70px;
 }
+
 .livro_promo {
     display: flex;
     margin-left: 70px;
     margin-right: 70px;
 }
+
 .promo_livros {
     width: 130px;
     border-radius: 8px;
     margin-left: 30px;
 }
+
 .recomendados {
     margin-top: 80px;
     margin-bottom: 30px;
@@ -108,9 +125,11 @@ h2 {
     padding-top: 5px;
     box-shadow: 2px -2px 5px rgba(185, 185, 185, 0.5);
 }
+
 .recomendados h2 {
     margin-left: 30px;
 }
+
 .recom_livros {
     width: 180px;
     height: 267px;
@@ -119,14 +138,17 @@ h2 {
     margin-right: 10px;
     margin-top: 10px;
 }
+
 .titulos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 .titulos p {
     margin-bottom: 0;
 }
+
 .autores {
     display: flex;
     flex-direction: row;
@@ -134,9 +156,11 @@ h2 {
     font-size: smaller;
     color: #3E3C3C;
 }
+
 .autores p {
     margin: 0;
 }
+
 .valores {
     display: flex;
     flex-direction: row;
@@ -148,9 +172,11 @@ h2 {
     color: #516EE3;
     margin-bottom: 20px;
 }
+
 .valores p {
     margin-top: 10px;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -161,21 +187,25 @@ footer {
     padding-left: 170px;
     padding-right: 170px;
 }
+
 footer h1 {
     color: white;
     font-size: 30px;
 }
+
 .rodape h2 {
     margin: 0;
     font-weight: bold;
 }
-.formu{
+
+.formu {
     border-radius: 30px;
     border-style: none;
     background-color: #f8f7f7;
     border-color: #f8f7f7;
     padding: 10px;
 }
+
 .form {
     border-radius: 30px;
     border-style: none;
@@ -183,16 +213,19 @@ footer h1 {
     color: white;
     padding: 10px;
 }
+
 .email {
     background-color: #f8f7f7;
     border-radius: 30px;
     display: flex;
     align-items: center;
 }
+
 .ft_email {
     width: 20px;
     padding-left: 10px;
 }
+
 .perg {
     border-radius: 15px;
     border-style: none;
@@ -202,6 +235,7 @@ footer h1 {
     width: 700px;
     font-size: small;
 }
+
 .busca {
     background-color: #E6E6E6;
     border-radius: 15px;
@@ -212,6 +246,7 @@ footer h1 {
     margin-top: 30px;
     box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
 }
+
 container .form {
     padding: 13px;
     width: 100px;
@@ -228,22 +263,27 @@ container .form {
     display: flex;
     justify-content: space-between;
 }
+
 .conj_promo img {
     width: 340px;
 }
+
 .pop_livros {
     width: 100px;
     border-radius: 5px;
 }
+
 .livro_pop {
     width: 500px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
 .div_propag img {
     width: 200px;
 }
+
 .populares {
     width: 500px;
     margin-left: 80px;
@@ -251,26 +291,32 @@ container .form {
     justify-content: space-evenly;
     flex-direction: column;
 }
+
 .promo img {
     width: 200px;
     border-radius: 10px;
     margin-left: 30px;
 }
+
 .div_propag {
     width: 300px;
 }
+
 .pai_livros {
     display: flex;
     flex-direction: column;
 }
+
 container {
     display: flex;
     justify-content: center;
 }
+
 .mais_procurados {
     display: flex;
     flex-direction: column;
 }
+
 .livro_mais_vendido {
     height: 167px;
     margin-left: 100px;
@@ -279,28 +325,34 @@ container {
     display: flex;
     align-items: flex-end;
 }
+
 .mais_procurados h2 {
     margin-top: 30px;
 }
+
 .mais_procurados h2 {
     margin-top: 30px;
 }
+
 .sobre_livro {
     display: flex;
     flex-direction: column;
     margin-left: 5px;
 }
+
 .sobre_livro p {
     margin-top: 40px;
     margin-bottom: 0px;
     font-weight: 600;
 }
+
 .sobre_livro h6 {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #3E3C3C;
     font-weight: 600;
 }
+
 .avaliacao {
     margin: 0px;
     margin-top: 5px;
@@ -308,10 +360,12 @@ container {
     width: 30px;
     display: flex;
 }
+
 .avaliacao img {
     width: 15px;
     height: 15px;
 }
+
 .avaliacao p {
     font-size: 10px;
     margin-top: 2px;
@@ -319,12 +373,14 @@ container {
     font-weight: 500;
     color: #3E3C3C;
 }
+
 .generos_juntos {
     display: flex;
     margin-left: 90px;
     margin-bottom: 30px;
     justify-content: space-between;
 }
+
 .genero {
     width: 90px;
     height: 90px;
@@ -332,18 +388,22 @@ container {
     background-color: #e4e4e4;
     border: none;
 }
+
 .sobre_gen {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .sobre_gen h5 {
     font-weight: 500;
     margin-top: 10px;
 }
+
 .sobre_gen img {
     width: 70px;
 }
+
 .cadastro {
     width: 200px;
     border-radius: 30px;
@@ -354,6 +414,7 @@ container {
     font-size: medium;
     box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
 }
+
 .venda {
     display: flex;
     height: 50px;
@@ -362,6 +423,7 @@ container {
     margin-right: 100px;
     margin-top: 30px;
 }
+
 .livro_vendido {
     height: 167px;
     margin-left: 100px;
@@ -370,18 +432,22 @@ container {
     display: flex;
     align-items: flex-end;
 }
+
 .sobre_livro h4 {
     margin-top: 5px;
     margin-bottom: 0px;
 }
+
 .venda_livro {
     width: 150px;
     margin-right: 10px;
 }
+
 .estado {
     display: flex;
     justify-content: flex-end;
 }
+
 .estado h5 {
     background-color: #34C759;
     color: white;
@@ -392,50 +458,58 @@ container {
     font-weight: 500;
     font-size: medium;
 }
+
 .vender p {
     margin-top: 70px;
 }
+
 .vendidos {
     display: flex;
     justify-content: space-between;
     margin-right: 220px;
     margin-left: 90px;
 }
+
 .popup {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.5); 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 .popup-conteudo {
-  background-color: #fefefe;
-  margin: 15% auto; 
-  padding: 20px;
-  border-radius: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  height: 80%;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
 }
+
 .fechar-popup {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
+
 .fechar-popup:hover,
 .fechar-popup:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
+
 .popup-conteudo h2 {
     margin-left: 30px;
 }
+
 .ft_livro {
     display: flex;
     flex-direction: column;
@@ -444,18 +518,22 @@ container {
     margin-top: 30px;
     margin-left: 250px;
 }
+
 .ft_livro img {
     width: 170px;
     margin-bottom: 30px;
 }
+
 .agrup_form {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .form_cad {
     margin-right: 250px;
 }
+
 .f {
     background-color: #ece9e9;
     height: 35px;
@@ -465,15 +543,18 @@ container {
     padding-top: 5px;
     border-radius: 20px;
 }
+
 .form_cad .formu {
     background-color: #ece9e9;
     width: 170px;
 }
+
 nav {
     align-items: center;
     background: #fff;
     z-index: 100;
 }
+
 .menu-toggle {
     display: none;
     border: 0;
@@ -483,28 +564,33 @@ nav {
     height: 44px;
     cursor: pointer;
 }
+
 .menu-toggle img {
     width: 100%;
     height: auto;
 }
+
 @media (max-width: 768px) {
     nome-site {
         display: none;
     }
+
     nav {
         margin: 0;
         padding: 10px 14px;
         position: sticky;
         top: 0;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-        border-bottom: 1px solid rgba(0,0,0,0.05);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     }
+
     .menu-toggle {
         display: flex;
         align-items: center;
         justify-content: center;
         order: 0;
     }
+
     .botao_carrinho {
         order: 2;
         margin-left: auto;
@@ -512,41 +598,50 @@ nav {
         align-items: center;
         justify-content: center;
     }
-    nav > a:not(.botao_carrinho) {
+
+    nav>a:not(.botao_carrinho) {
         display: none;
     }
-    nav[aria-expanded="true"] > a:not(.botao_carrinho) {
+
+    nav[aria-expanded="true"]>a:not(.botao_carrinho) {
         display: flex;
         width: 100%;
         justify-content: flex-start;
         padding: 12px 4px;
         margin: 0;
     }
+
     nav[aria-expanded="true"]::after {
         content: "";
         display: block;
         width: 100%;
     }
+
     #site-menu {
         position: relative;
         flex-wrap: wrap;
     }
-    #site-menu[aria-expanded="true"] > a:not(.botao_carrinho) {
+
+    #site-menu[aria-expanded="true"]>a:not(.botao_carrinho) {
         background: #fff;
-        border-top: 1px solid rgba(0,0,0,0.06);
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
     }
+
     article {
         margin: 16px;
         padding: 16px;
         align-items: center;
         gap: 12px;
     }
+
     .promocao {
         width: min(100%, 360px);
     }
+
     .livros {
         width: min(100%, 260px);
     }
+
     .cupom {
         margin-left: 0;
         width: 100%;
@@ -554,23 +649,31 @@ nav {
         font-size: 18px;
         height: 42px;
     }
+
     h2 {
         margin: 16px;
     }
+
     footer {
         flex-direction: column;
         gap: 20px;
         padding: 24px;
     }
-    .busca, .conj_promo, .populares, .valores {
+
+    .busca,
+    .conj_promo,
+    .populares,
+    .valores {
         width: 95%;
         margin: 12px 0;
         justify-content: center;
     }
+
     .valores {
         gap: 16px;
         justify-content: space-around;
     }
+
     .livro_promo {
         display: flex;
         justify-content: flex-start;
@@ -582,19 +685,23 @@ nav {
         margin-left: 16px;
         margin-right: 16px;
     }
+
     .livro_promo::-webkit-scrollbar {
         height: 8px;
     }
+
     .livro_promo::-webkit-scrollbar-thumb {
-        background: rgba(0,0,0,.2);
+        background: rgba(0, 0, 0, .2);
         border-radius: 8px;
     }
+
     .promo_livros {
         flex: 0 0 auto;
         width: 130px;
         margin: 0;
         border-radius: 8px;
     }
+
     .recomendados .titulos,
     .recomendados .autores,
     .recomendados .valores,
@@ -604,175 +711,403 @@ nav {
     .recomendados small {
         display: none;
     }
+
     .recomendados {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
         padding-left: 16px;
         padding-right: 16px;
     }
+
     .recom_livros {
         width: 100%;
         height: auto;
         margin: 0;
         border-radius: 5px;
     }
-    .email{
+
+    .email {
         max-width: 250px;
     }
 }
+
 @media (max-width: 768px) {
-  container {
-    display: flex;
-    flex-direction: column;
-  }
+    container {
+        display: flex;
+        flex-direction: column;
+    }
 
-  .pai_livros {
-    display: contents;
-  }
+    .pai_livros {
+        display: contents;
+    }
 
-  .busca {
-    order: 1;
-    margin: 12px 16px;
-  }
+    .busca {
+        order: 1;
+        margin: 12px 16px;
+    }
 
-  .pai_livros > h2:first-of-type {
-    order: 2;
-    margin: 12px 16px;
-  }
+    .pai_livros>h2:first-of-type {
+        order: 2;
+        margin: 12px 16px;
+    }
 
-  .generos_juntos {
-    order: 3;
-    display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    padding: 8px 16px 12px;
-    margin-left: 20px;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 0px;
-  }
+    .generos_juntos {
+        order: 3;
+        display: block;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 8px 16px 12px;
+        margin-left: 20px;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 0px;
+    }
 
-  .generos_juntos .sobre_gen {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 12px;
-  }
+    .generos_juntos .sobre_gen {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 12px;
+    }
 
-  .mais_procurados {
-    order: 4;
-    margin: 12px 16px;
-  }
+    .mais_procurados {
+        order: 4;
+        margin: 12px 16px;
+    }
 
-  .conj_promo {
-    order: 5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    margin: 12px 16px;
-  }
+    .conj_promo {
+        order: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin: 12px 16px;
+    }
 
-  .conj_promo img {
-    width: 80%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-  }
+    .conj_promo img {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+    }
 
-  .pai_livros > h2:nth-of-type(2) {
-    order: 6;
-    margin: 12px 16px;
-  }
+    .pai_livros>h2:nth-of-type(2) {
+        order: 6;
+        margin: 12px 16px;
+    }
 
-  .populares {
-    order: 7;
-    display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    margin: 0 16px 16px;
-    -webkit-overflow-scrolling: touch;
-  }
+    .populares {
+        order: 7;
+        display: block;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin: 0 16px 16px;
+        -webkit-overflow-scrolling: touch;
+    }
 
-  .livro_pop {
-    display: inline-flex;
-    gap: 12px;
-    margin-right: 12px;
-  }
+    .livro_pop {
+        display: inline-flex;
+        gap: 12px;
+        margin-right: 12px;
+    }
 
-  .pop_livros {
-    flex: 0 0 auto;
-    width: 20%;
-    height: auto;
-    object-fit: cover;
-    display: inline-block;
-  }
+    .pop_livros {
+        flex: 0 0 auto;
+        width: 20%;
+        height: auto;
+        object-fit: cover;
+        display: inline-block;
+    }
 }
 
 
 .grid-recomendados {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 50px;
 }
 
 .livro_recom {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 10px 20px;
-  flex: 1 0 180px;
-  max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 20px;
+    flex: 1 0 180px;
+    max-width: 200px;
 }
 
 .livro_recom figcaption {
-  margin-top: 8px;
-  width: 100%;
-  text-align: left;
+    margin-top: 8px;
+    width: 100%;
+    text-align: left;
 }
 
 .livro_recom .titulo {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .livro_recom .autor {
-  font-size: smaller;
-  color: #3E3C3C;
-  margin: 0;
+    font-size: smaller;
+    color: #3E3C3C;
+    margin: 0;
 }
 
 .livro_recom .valor {
-  font-size: large;
-  font-weight: bold;
-  color: #516EE3;
-  margin-top: 6px;
-}
-@media (max-width: 768px) {
-  .grid-recomendados {
-    display: grid;
-    margin: 0;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    padding: 0 16px;
-  }
-
-  .livro_recom {
-    max-width: 100%;
-    margin: 0;
-    align-items: flex-start; 
-  }
-
-  .livro_recom figcaption {
-    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: #516EE3;
     margin-top: 6px;
-    width: 100%;
-  }
-
-  .recom_livros {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
 }
 
+@media (max-width: 768px) {
+    .grid-recomendados {
+        display: grid;
+        margin: 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+    .livro_recom {
+        max-width: 100%;
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .livro_recom figcaption {
+        text-align: left;
+        margin-top: 6px;
+        width: 100%;
+    }
+
+    .recom_livros {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+
+/* Ana mexeu */
+.logo {
+    font-size: 1.5px;
+    font-weight: bold;
+    color: #4a6cf7;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2px;
+}
+
+nav ul li {
+    font-weight: 500px;
+}
+
+nav ul li.active {
+    font-weight: bold;
+}
+
+.cart-icon {
+    font-size: 1.5px;
+    cursor: pointer;
+}
+
+.conta {
+    max-width: 1000px;
+    margin: 2px auto;
+    padding: 0 1px;
+}
+
+/*Ana mexeu */
+.perfil_decima {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.share-icon {
+    font-size: 19px; 
+    color: #777;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px 16px; 
+    border-radius: 10px;
+    font-size: 14px; 
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-main {
+    display: flex;
+    align-items: center;
+    gap: 24px; 
+    margin-bottom: 32px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #f2c94c;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 19px; 
+    font-weight: bold;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    gap: 16px; 
+    margin-bottom: 24px; 
+}
+
+.stat {
+    flex: 1;
+    background: #eaf2ff;
+    border-radius: 15px;
+    padding: 16px; 
+    text-align: center;
+}
+
+.stat .value {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.stat .label {
+    font-size: 13px; 
+    color: #555;
+    font-weight: 500;
+}
+
+.orders-btn {
+    width: 100%;
+    padding: 16px; 
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    color: #4a6cf7;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+/* Bio & Genres */
+.section {
+    margin-bottom: 32px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px; 
+}
+
+.section-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section-header button {
+    background: none;
+    border: none;
+    color: #777;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bio-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.genres {
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+}
+
+.genre {
+    padding: 8px 19px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    cursor: default;
+}
+
+.genre.romance {
+    background: #f9b3d1;
+}
+
+.genre.suspense {
+    background: #a8d5a2;
+}
+
+.genre.ficcao {
+    background: #a3d2f0;
+}
+
+/* Favorites */
+.favorites-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.favorites-header h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.favorites-list {
+    display: flex;
+    gap: 16px; 
+    overflow-x: auto;
+    padding-bottom: 16px; 
+}
+
+.favorites-list img {
+    width: 120px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}

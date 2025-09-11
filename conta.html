@@ -3,18 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Lê-Vou </title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Lê-Vou</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <h1> Lê-Vou </h1>
-        <a href="index.html"> Início </a>
-        <a href="livros.html"> Livros </a>
-        <a href="meusLivros.html"> Meus Livros </a>
-        <a class="ativo" href="conta.html"> Conta </a>
-        <button class="botao_carrinho"> <a href="carrinho.html"> <img class="carrinho" src="carrinho.png"></a></button>
-    </nav>
+    <section class="conta">
+
+        <section class="perfil_decima">
+            <div class="share-icon">
+                <img src="share.png" alt="compartilhar">
+            </div>
+            <button class="edit-btn">Editar Perfil</button>
+        </section>
+
+        <!-- Profile Main -->
+        <div class="profile-main">
+            <div class="avatar">
+                <img src="helena.png" alt= "Helena Alves">
+            </div>
+            <div class="profile-info">
+                <h2>HELENA ALVES</h2>
+                <p>helena.alves@gmail.com.br</p>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat">
+                <div class="value">5</div>
+                <div class="label">LIVROS DISPONÍVEIS</div>
+            </div>
+            <div class="stat">
+                <div class="value">⭐ 3.2</div>
+                <div class="label">AVALIAÇÃO MÉDIA</div>
+            </div>
+            <div class="stat">
+                <div class="value">10</div>
+                <div class="label">LIVROS VENDIDOS</div>
+            </div>
+        </div>
+
+        <!-- Orders -->
+        <button class="orders-btn">🛍️ Seus Pedidos</button>
+
+        <!-- Bio Section -->
+        <div class="section">
+            <div class="section-header">
+                <h3>Minha Bio</h3>
+                <button>Escrever ➔</button>
+            </div>
+            <p class="bio-text">Amo livros, vcs não sabem quanto um livro salva vidas!!</p>
+        </div>
+
+        <!-- Genres Section -->
+        <div class="section">
+            <div class="section-header">
+                <h3>Gêneros Favoritos</h3>
+                <button>Adicionar ➔</button>
+            </div>
+            <div class="genres">
+                <span class="genre romance">Romance</span>
+                <span class="genre suspense">Suspense</span>
+                <span class="genre ficcao">Ficção</span>
+            </div>
+        </div>
+
+        <!-- Favorites Section -->
+        <div class="favorites-header">
+            <h2>Favoritados</h2>
+            <div class="heart">❤️</div>
+        </div>
+        <div class="favorites-list">
+            <img src="livro1.png" alt="Cortes de Espinhos e Rosas">
+            <img src="livro2.png" alt="bbb">
+            <img src="livro3.png" alt="dddd">
+            <img src="livro4.png" alt="xxxx">
+            <img src="livro1.png" alt="Cortes de Espinhos e Rosas">
+            <img src="livro2.png" alt="bbb">
+            <img src="livro3.png" alt="dddd">
+            <img src="livro4.png" alt="xxxx">
+        </div>
+
+    </section>
 </body>
 </html>
