@@ -889,31 +889,6 @@ nav {
 }
 
 /* Ana mexeu */
-.logo {
-    font-size: 1.5px;
-    font-weight: bold;
-    color: #4a6cf7;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 2px;
-}
-
-nav ul li {
-    font-weight: 500px;
-}
-
-nav ul li.active {
-    font-weight: bold;
-}
-
-.cart-icon {
-    font-size: 1.5px;
-    cursor: pointer;
-}
-
 .conta {
     max-width: 1000px;
     margin: 2px auto;
@@ -930,11 +905,10 @@ nav ul li.active {
 
 .share-icon {
     font-size: 19px; 
-    color: #777;
     cursor: pointer;
 }
 
-.edit-btn {
+.editar_perfil {
     background: white;
     border: 1px solid #ccc;
     padding: 10px 16px; 
