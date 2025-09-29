@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Lê-Vou </title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <h1> Lê-Vou </h1>
+    <nav id="site-menu" aria-expanded="false">
+        <button class="menu-toggle" aria-label="Abrir menu">
+            <img src="menu.png" alt="Menu">
+        </button>
+        <h1 class="nome-site"> Lê-Vou </h1>
         <a href="index.html"> Início </a>
         <a href="livros.html"> Livros </a>
         <a href="meusLivros.html"> Meus Livros </a>
         <a href="conta.html"> Conta </a>
-        <button class="botao_carrinho"> <a href="carrinho.html"> <img class="carrinho" src="carrinho_preenchido.png"></a></button>
+        <a class="botao_carrinho" href="carrinho.html">
+            <img class="carrinho" src="carrinho_preenchido.png" alt="Carrinho">
+        </a>
     </nav>
     <section class="titulo_carrinho">
         <h2> Meu carrinho: </h2>
@@ -21,42 +27,7 @@
     </section>
     <container class="pai_carrinho">
         <section class="compras">
-            <section class="livro_carrinho">
-                <img class="img_livro_carrinho" src="livro1.png">
-                <div class="sobre_livro_carrinho">
-                    <section class="carrinho_autor">
-                        <p> Corte de Espinhos e Rosas </p>
-                        <h6> - Sarah J. Maas </h6> 
-                    </section>
-                    <section class="preco">
-                        <p> R$ 35,50</p>
-                    </section>
-                </div>
-            </section>
-            <section class="livro_carrinho">
-                <img class="img_livro_carrinho" src="livro1.png">
-                <div class="sobre_livro_carrinho">
-                    <section class="carrinho_autor">
-                        <p> Corte de Espinhos e Rosas </p>
-                        <h6> - Sarah J. Maas </h6> 
-                    </section>
-                    <section class="preco">
-                        <p> R$ 35,50</p>
-                    </section>
-                </div>
-            </section>
-            <section class="livro_carrinho">
-                <img class="img_livro_carrinho" src="livro1.png">
-                <div class="sobre_livro_carrinho">
-                    <section class="carrinho_autor">
-                        <p> Corte de Espinhos e Rosas </p>
-                        <h6> - Sarah J. Maas </h6> 
-                    </section>
-                    <section class="preco">
-                        <p> R$ 35,50</p>
-                    </section>
-                </div>
-            </section>
+
         </section>
         <section class="resumo">
             <section class="caixa_resumo">
@@ -68,6 +39,27 @@
             </section>
         </section>
     </container>
+
+    <footer>
+        <section class="rodape">
+            <h1> Lê-Vou </h1>
+            <p> Não perca tempo procurando. <br> Se o livro te escolheu, Lê-Vou! </p>
+        </section>
+        <section class="rodape">
+            <h2> Contato para info </h2>
+            <p> Rua dos Bobos, 00, Jardim dos <br> Coitados, São Paulo - Brasil </p>
+            <p> hello@LeVou.com.br </p>
+        </section>
+        <section class="rodape">
+            <h2> Se Inscreva </h2>
+            <p> Coloque seu email e receba as <br> melhores promoções </p>
+            <div class="email">
+                <img class="ft_email" src="email.png">
+                <input class="formu" type="email" placeholder="Insira seu email" required name="email">
+                <input class= "form" type="submit" value="Inscrever">
+            </div>
+        </section>
+    </footer>
 
 </body>
 </html>
