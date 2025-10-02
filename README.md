@@ -37,9 +37,107 @@ Este projeto tem caráter extensionista, por atender uma demanda da comunidade, 
  - Estruturas incluídas em todas as páginas .html
 <img width="576" height="187" alt="Captura de Tela 2025-10-02 às 16 13 37" src="https://github.com/user-attachments/assets/89088d64-5cdb-4016-8619-3876c734f60d" />
 
+`<!DOCTYPE html>` → indica que o documento segue o padrão HTML5.
+
+`<html lang="pt-BR">` → define que a língua usada na página é o português do Brasil.
+ 
+`<meta charset="UTF-8">` → garante que caracteres especiais (acentos, cedilhas, etc.) sejam exibidos corretamente.
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">` → faz a página se adaptar bem em telas de celular.
+
+`<title>` → define o título da aba do navegador.
+ 
+`<link rel="stylesheet" href="style.css">` → conecta o HTML ao arquivo CSS.
+
+`<script src="script.js" defer></script>` → conecta o JavaScript, que será executado somente depois que o HTML for carregado. 
+
 <img width="552" height="257" alt="Captura de Tela 2025-10-02 às 16 29 54" src="https://github.com/user-attachments/assets/edf5e9ff-2596-410d-b498-96b9679056f1" />
 
+O menu é estruturado dentro da tag `<nav id="site-menu">`.
+
+O botão de alternância usa class="menu-toggle" para abrir/fechar o menu em telas pequenas.
+
+O título do site é exibido em `<h1 class="nome-site">`.
+
+Os links de navegação usam `<a>` para redirecionar às páginas principais (Início, Livros, Meus Livros, Conta, Carrinho).
+
+A classe ativo identifica qual página está em uso (exemplo: conta.html) e aplica negrito a sua fonte.
+
+O ícone do carrinho é um `<img class="carrinho">` posicionado como link.
+
+
 <img width="755" height="361" alt="Captura de Tela 2025-10-02 às 16 29 14" src="https://github.com/user-attachments/assets/dd675006-de04-4a83-86bd-f453b998da1f" />
+
+O rodapé (`<footer>`) contém três colunas (`.rodape`):
+
+Nome do site + slogan.
+
+Informações de contato (endereço e e-mail).
+
+Área de inscrição, com campo de e-mail e botão enviar.
+
+O campo de inscrição utiliza um `<input type="email">` obrigatório (required), garantindo validação de formulário no navegador.
+
+#### - index.html
+
+Depois das estruturas que estão em todas as páginas, acontece a estruturação das seções de promoções e recomendações de livros
+
+`<article>` → representa um bloco de conteúdo, usado para agrupar a seção de promoções.
+
+`<section class="sc_promo">` → cria uma área específica para promoções, com classe sc_promo que será estilizada pelo CSS.
+
+`<img class="promocao" src="promocao.png">` → insere uma imagem de promoção, com largura definida no CSS.
+
+`<button class="cupom">` → botão estilizado para destacar o cupom de desconto.
+
+`<a href="#"> Use o cupom </a>` → link dentro do botão, que pode levar a outra página ou ação.
+
+`<img class="livros" src="livros.png">` → adiciona uma imagem de livros para complementar a promoção.
+
+`<h2>` → título da seção, indicando "Promoções".
+
+`<section class="livro_promo"></section>` → espaço reservado para mostrar livros em promoção, organizado pelo CSS e js.
+
+#### - livros.html
+Essa página organiza uma área de livros, com campos de busca, listagem de gêneros, seções de promoções, livros populares e os mais procurados.
+
+A seção principal é agrupada em `<container class="pai_livros">`, que no CSS usa `display: flex; flex-direction: column;` para organizar os elementos em coluna.
+
+O campo de busca está dentro de `<section class="busca">`, que contém um campo de pesquisa `<input class="perg" type="search">` com `placeholder="digite"`, e um botão de envio `<input class="form" type="submit" value="Buscar">`.
+
+Os títulos das seções `<h2> Gêneros </h2>` e `<h2> Livros Populares </h2>` servem para destacar cada bloco de conteúdo. O CSS aplica margens (`margin-top, margin-left`) para espaçar os títulos.
+
+A lista de gêneros é reservada em `<section class="generos_juntos">`, enquanto promoções aparecem em `<section class="conj_promo">`.
+
+A parte de livros populares é organizada em `<container class="conj_pop">`, que contém `<container class="populares">` para os livros e `<section class="promo">` para promoções.
+
+A seção final `<container class="mais_procurados">` cria o bloco de “Mais Procurados”. No CSS, `.mais_procurados` usa `display: flex; flex-direction: column;` para empilhar elementos verticalmente.
+
+O destaque de livros mais vendidos é feito por `.livro_mais_vendido`, que define altura fixa (`height: 167px`), espaçamento externo (`margin`) e alinha os itens no rodapé da caixa com `align-items: flex-end`.
+
+
+#### - meusLivros.html
+A seção inicial `<section class="venda">` cria o cabeçalho “Livros à venda”, com o botão Cadastrar novo livro. No CSS, `.venda` usa `display: flex; justify-content: space-between;` para alinhar o título à esquerda e o botão à direita.
+
+O formulário de cadastro aparece em `<div id="Popup" class="popup">`, que contém o conteúdo centralizado em `.popup-conteudo`. O botão de fechar (`<span class="fechar-popup"> &times; </span>`) permite encerrar a janela, enquanto os dados são organizados em `<container class="agrup_form">`.
+
+O pop-up aparece e desaparece com o uso de funções no js. A função `abrirPopup()` seleciona o elemento com `id="Popup"` e altera seu estilo para `display: "block"`, fazendo a janela de cadastro aparecer na tela. A função `fecharPopup()` faz o contrário: muda o `display` para `"none"`, ocultando a janela.
+
+No lado esquerdo do formulário, `<section class="ft_livro">` mostra a imagem (`add_livro.png`) e um botão de cadastrar.
+
+No lado direito, `<section class="form_cad">` agrupa os campos de entrada: título, autor, número de páginas, valor, condição (com checkbox), descrição e fotos. Cada item vem dentro de `<p class="f">`, e os campos usam a classe `.formu` para padronizar estilo.
+
+Após o formulário, há duas áreas `<container class="vendidos">`, que no CSS estão configuradas com `display: flex; justify-content: space-between;` para distribuir os livros cadastrados horizontalmente.
+
+Cada livro é representado por `.livro_vendido`, que define altura fixa (`167px`) e usa `display: flex; align-items: flex-end;` para alinhar as informações no rodapé da caixa.
+
+O bloco de informações adicionais aparece em `.sobre_livro h4`, com margens ajustadas.
+
+A classe `.venda_livro` define largura (`150px`) e espaçamento lateral.
+
+O estado de conservação do livro é destacado em `.estado`, alinhado à direita com `justify-content: flex-end;`. O rótulo de estado (`.estado h5`) tem cor de fundo dependendo da condição, letras brancas, padding e bordas arredondadas (`border-radius: 30px`).
+
+Por fim, o bloco `.vender p` aplica espaçamento extra no texto com `margin-top: 70px`.
 
 # Tutorial
 
