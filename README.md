@@ -1,6 +1,7 @@
 # Le-Vou
 
-Integrantes
+## Integrantes: 
+
 Ana Lessa Ferreira - RA: 10732666
 
 Artur Guarnieri do Amaral Rodrigues - RA: 10736207
