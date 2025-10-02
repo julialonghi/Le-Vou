@@ -33,6 +33,13 @@ Decidimos criar esse projeto justamente para solucionar essas questões. Entende
 
 Este projeto tem caráter extensionista, por atender uma demanda da comunidade, por meio do desenvolvimento de um ambiente online, que facilitará a conexão entre pessoas que buscam novos livros e pessoas que desejam desapegar de seus livros. Promovendo a economia circular, o retorno do livro para a comunidade traz diversos benefícios econômicos e ecológicos.
 
+# Explicação do Código
+ - Estruturas incluídas em todas as páginas .html
+<img width="576" height="187" alt="Captura de Tela 2025-10-02 às 16 13 37" src="https://github.com/user-attachments/assets/89088d64-5cdb-4016-8619-3876c734f60d" />
+
+<img width="552" height="257" alt="Captura de Tela 2025-10-02 às 16 29 54" src="https://github.com/user-attachments/assets/edf5e9ff-2596-410d-b498-96b9679056f1" />
+
+<img width="755" height="361" alt="Captura de Tela 2025-10-02 às 16 29 14" src="https://github.com/user-attachments/assets/dd675006-de04-4a83-86bd-f453b998da1f" />
 
 # Tutorial
 
