@@ -36,6 +36,7 @@ Este projeto tem caráter extensionista, por atender uma demanda da comunidade, 
 
 # Tutorial
 
+
 ## Visão Geral da Responsividade
 
 A responsividade é implementada principalmente através de uma media query no CSS que ajusta estilos para telas com largura máxima de 768px. Essa media query modifica layouts, tamanhos de elementos e alinhamentos para dispositivos menores, como tablets e smartphones. No JavaScript, o menu responsivo é gerenciado com eventos para abrir e fechar o menu em telas menores, e arrays são usados para preencher dinamicamente conteúdos em várias páginas.
