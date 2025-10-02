@@ -969,6 +969,7 @@ nav {
 }
 
 /* INFO ADICIONAIS */
+
 .status {
     display: flex;
     gap: 16px; 
@@ -988,6 +989,13 @@ nav {
     font-weight: bold;
 }
 
+.status1 .value img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+
 .status1 .label {
     font-size: 13px; 
     color: #555;
@@ -1004,6 +1012,7 @@ nav {
     color: #32ADE6;
     border-radius: 20px;
     font-weight: bold;
+    font-size: medium;
     cursor: pointer;
     margin-bottom: 32px;
     box-shadow: 2px 2px 5px rgba(142, 141, 141, 0.5);
@@ -1023,7 +1032,7 @@ nav {
 
 .sessão-topo h3 {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -1083,6 +1092,11 @@ nav {
     font-weight: bold;
 }
 
+.favoritos img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
 
 .favoritos-lista {
     display: flex;
@@ -1096,6 +1110,8 @@ nav {
     border-radius: 8px;
     flex-shrink: 0;
 }
+
+
 .titulo_carrinho {
     display: flex;
     justify-content: space-between;
