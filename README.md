@@ -1,4 +1,4 @@
-# Le-Vou
+# Lê-Vou
 
 ## Integrantes: 
 
@@ -411,3 +411,7 @@ A media query principal aplica-se a todas as páginas: `@media (max-width: 768px
 - 'body': `margin-top: 25px; font-family: "Poppins"; margin: 0;`. Remove margens padrão. 
 - 'nav': `display: flex; justify-content: space-between; margin-top: 20px; margin-left: 70px; margin-right: 70px;`. Ajusta para telas menores via media. 
 - 'footer': `display: flex; justify-content: space-between; background-color: #7A7A7F; color: white; margin-top: 60px; padding: 30px; padding-left: 170px; padding-right: 170px;`. Empilha em telas menores devido ao flex.
+
+# Conclusão
+
+Após a realização da etapa da lagarta, percebemos que a criação de um site é complexa, tivemos muita dificuldade em JavaScript e no momento de organizar o código, foi um trabalho de muito aprendizado, conseguimos explorar diversas maneiras de implementar o código, e trazer um impacto na sociedade pois o projeto tinha um caráter extensionista.
