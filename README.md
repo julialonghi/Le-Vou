@@ -139,14 +139,184 @@ O estado de conservação do livro é destacado em `.estado`, alinhado à direit
 
 Por fim, o bloco `.vender p` aplica espaçamento extra no texto com `margin-top: 70px`.
 
-# Tutorial
+#### - conta.html.css
+##### Perfil do Usuário
+A seção principal do conteúdo é agrupada em `<section class="conta">`, que centraliza e limita a largura da página no CSS (`max-width: 1000px; margin: auto`).
+
+No topo do perfil, `<section class="perfil_decima">` organiza lado a lado (`display: flex`) o botão de compartilhar (`.share-icon`) e o botão de editar perfil (`.editar_perfil`). 
+
+O avatar é exibido com a classe `.avatar`, que aplica `border-radius: 50%` para criar o círculo e uma borda dourada (`border: 4px solid #f2c94c`).
+
+As informações do usuário (nome e email) ficam dentro de `.perfil-info`, com título em `<h2>` e subtítulo em `<p>`.
+
+##### Status do Usuário
+A área de status é construída com `<section class="status">`, que usa `display: flex` no CSS para exibir os blocos lado a lado.
+
+Cada bloco (`.status1`) contém: 
+
+`.value` → valor principal em destaque (exemplo: número de livros ou avaliação média).
+
+`.label` → legenda explicativa em fonte menor.
+
+A cor de fundo dos blocos é `#eaf2ff`, com bordas arredondadas e centralização do texto.
+
+##### Botão de Pedidos
+Criado com `<button class="pedidos">Seus Pedidos</button>`.
+
+No CSS, ocupa toda a largura (`width: 100%`) e aplica cor azul clara (`color: #32ADE6`) com sombra (`box-shadow`) para destacar.
+
+A borda arredondada (`border-radius: 20px`) segue o padrão visual do site.
+
+##### Bio do Usuário
+A seção de bio usa `<section class="sessão">`.
+
+No topo (`.sessão-topo`), há um título `<h3>` e um botão para editar (`button`). O CSS usa `display: flex e justify-content: space-between` para alinhar lado a lado.
+
+O texto da bio é exibido em `<p class="bio-texto">`, estilizado com fonte menor e cor cinza (`color: #555`).
+
+##### Gêneros Favoritos
+Os gêneros são exibidos dentro da classe `.generos`.
+
+Cada gênero recebe uma cor diferente definida no CSS:
+
+`.generos.romance` → fundo rosa (`#f9b3d1`).
+
+`.generos.suspense` → fundo verde (`#a8d5a2`).
+
+`.generos.ficcao` → fundo azul (`#a3d2f0`).
+
+Os elementos são distribuídos com `display: flex`, espaçamento (`gap`) e suporte a múltiplas linhas (`flex-wrap`).
+
+##### Favoritos
+A seção `favoritos` exibe um título (`<h2>`) e o ícone de coração (`<img>`).
+
+A lista de livros favoritados (`.favoritos-lista`) é organizada em linha (`display: flex`), com `overflow-x: auto` para permitir rolagem horizontal caso haja muitos livros, pois por enquanto não aplicamos o map nela.
+
+Cada capa tem largura fixa (`width: 120px`) e cantos arredondados (`border-radius: 8px`).
+
+#### - carrinho.html
+Títulos do Carrinho
+
+`<section class="titulo_carrinho">` Agrupa os títulos da página: “Meu carrinho” e “Resumo”.
+
+`<h2> Meu carrinho: </h2>` → título da lista de produtos.
+
+`<h2> Resumo </h2>` → título da seção de resumo da compra.
+
+##### Container Principal (`<container class="pai_carrinho">`)
+Contém duas seções principais:
+
+`<section class="compras">` Área destinada a exibir os itens adicionados ao carrinho.
+
+`<section class="resumo">` Área de resumo da compra:
+
+`<section class="caixa_resumo">` → caixa que agrupa informações:
+
+`<p> Valor: </p>` → mostra o valor total dos produtos.
+
+`<p> Endereço: </p>` → indica onde o usuário deve digitar o endereço.
+
+`<input class="formu_carrinho" type="text" placeholder="Digite o endereço">` Campo de texto para digitar endereço.
+
+`<p> Frete: </p>` → exibe o valor do frete.
+
+`<p class="total"> Total: </p>` → valor final da compra.
+
+##### Estilização CSS
+Títulos do Carrinho → `.titulo_carrinho`:
+
+`display: flex` → organiza os títulos horizontalmente.
+
+`justify-content: space-between` → separa os títulos com espaço igual.
+
+`margin-right: 300px` → afasta a seção do lado direito da página.
 
 
-## Visão Geral da Responsividade
+
+Itens do Carrinho → `.livro_carrinho`:
+
+`display: flex` → alinha imagem e informações do livro em linha.
+
+`align-items: flex-end` → alinha elementos ao final verticalmente.
+
+`margin` → define espaço externo entre os itens.
+
+
+
+Imagem do carrinho → `.img_livro_carrinho`:
+
+`width: 150px` → define a largura da imagem.
+
+`border-radius: 5px` → bordas arredondadas para suavizar o visual.
+
+
+
+Organiza produtos → `.sobre_livro_carrinho:`
+
+`display: flex` e `justify-content: space-between` → organiza título, autor e preço separados horizontalmente.
+
+`width: 600px` → define largura da área de informações.
+
+`margin-left: 15px` → separa visualmente do lado esquerdo.
+
+
+
+Alinha preço a produtos → `.preco`:
+
+`display: flex e align-items: flex-end` → mantém preço alinhado ao final.
+
+`.preco p` → fonte em negrito (`font-weight: 700`) e cor azul (`#516EE3`).
+
+
+
+Definem estilo do título e do autor→ `.carrinho_autor h6` e `p`
+
+`margin-top e margin-bottom` controlam espaçamento.
+
+`font-weight: 600` → negrito médio.
+
+`color: #3E3C3C` → cor do texto.
+
+#### - Resumo da Compra
+`.caixa_resumo`:
+
+`background-color: #829BFF` → fundo azul.
+
+`color: white` → texto branco.
+
+`border-radius: 20px` → cantos arredondados.
+
+`width: 350px` e `height: 250px` → tamanho fixo da caixa.
+
+
+`padding: 15px; padding-left: 30px` → cria espaço interno para conteúdo.
+
+`margin-left: 100px` → afasta da borda esquerda.
+
+
+`.formu_carrinho`:
+
+`width: 320px` → largura do campo de texto.
+
+`border-radius: 30px` → bordas arredondadas.
+
+`border-style: none` → remove borda visível.
+
+`background-color: #f8f7f7` → fundo claro.
+
+`padding: 10px` → espaço interno.
+
+`.total` → deixa o texto em negrito para destaque.
+
+
+### - JavaScript e media queries
+
+
+#### Visão Geral da Responsividade
 
 A responsividade é implementada principalmente através de uma media query no CSS que ajusta estilos para telas com largura máxima de 768px. Essa media query modifica layouts, tamanhos de elementos e alinhamentos para dispositivos menores, como tablets e smartphones. No JavaScript, o menu responsivo é gerenciado com eventos para abrir e fechar o menu em telas menores, e arrays são usados para preencher dinamicamente conteúdos em várias páginas.
 
-## Implementação do Menu Responsivo via JavaScript
+#### Implementação do Menu Responsivo via JavaScript
 
 O código JavaScript gerencia o menu responsivo adicionando ouvintes de eventos para alternar a visibilidade do menu em telas menores.
 
@@ -160,7 +330,7 @@ O código JavaScript gerencia o menu responsivo adicionando ouvintes de eventos 
 
 Essa implementação aplica-se a todas as páginas que incluem o menu de navegação, como index.html, livros.html, meusLivros.html e carrinho.html, tornando o menu acessível e responsivo.
 
-## Preenchimento Dinâmico de Conteúdos via Arrays no JavaScript
+#### Preenchimento Dinâmico de Conteúdos via Arrays no JavaScript
 
 Arrays no JavaScript são usados para preencher seções de páginas dinamicamente, facilitando a manutenção e a responsividade ao gerar HTML que se adapta a diferentes tamanhos de tela.
 
@@ -182,7 +352,7 @@ Arrays no JavaScript são usados para preencher seções de páginas dinamicamen
 - Preenchimento de carrinho: Seleciona '.compras' e itera 'livrosCarrinho': "livrosCarrinho.forEach(livro => { comprasContainer.innerHTML += `<section class="livro_carrinho"> <img class="img_livro_carrinho"> <div class="sobre_livro_carrinho"> <section class="carrinho_autor"> <p> ${livro.titulo} </p> <h6> - ${livro.autor} </h6> </section> <section class="preco"> <p> ${livro.preco}</p> </section> </div> </section>`; })". Aplicado em carrinho.html.
 - Preenchimento de meus livros: Seleciona todos '.vendidos', itera 'meusLivros' distribuindo em containers: "vendidosContainers.forEach(container => { ... for (let i = 0; i < 2 && livroIndex < meusLivros.length; i++) { const livro = meusLivros[livroIndex]; const estadoClass = livro.estado === "Ótimo" ? "#34C759" : ... ; container.innerHTML += `<section class="livro_vendido"> <img class="venda_livro"> <section class="vender"> <div class="estado"> <h5 style="background-color: ${estadoClass}"> ${livro.estado} </h5> </div> <div class="sobre_livro"> <p> ${livro.titulo} </p> <h6> - ${livro.autor} </h6> <h4> ${livro.preco} </h4> </div> </section> </section>`; livroIndex++; } })". Aplicado em meusLivros.html.
 
-## Responsividade na Página index.html (Início)
+#### Responsividade na Página index.html (Início)
 
 A página index.html é responsiva ajustando layouts de promoções e recomendados via media query.
 
@@ -190,7 +360,7 @@ A página index.html é responsiva ajustando layouts de promoções e recomendad
 - '.livro_promo': `display: flex; margin-left: 70px; margin-right: 70px;`. Em telas menores, itens podem quebrar linha devido ao flex.
 - '.recomendados': `display: flex; flex-direction: column; padding-left: 20px; padding-right: 60px; padding-bottom: 20px; padding-top: 5px;`. Mantém coluna para empilhamento vertical.
 
-## Responsividade na Página livros.html (Livros)
+#### Responsividade na Página livros.html (Livros)
 
 A página livros.html ajusta seções de gêneros, promoções, populares e mais procurados para telas menores.
 
@@ -200,7 +370,7 @@ A página livros.html ajusta seções de gêneros, promoções, populares e mais
 - '.livro_pop': `width: 500px; display: flex; justify-content: space-between;`. Em telas menores, imagens reduzem tamanho via media query.
 - '.mais_procurados': `display: flex; flex-direction: column;`. Empilha itens verticalmente.
 
-## Responsividade na Página meusLivros.html (Meus Livros)
+#### Responsividade na Página meusLivros.html (Meus Livros)
 
 A página meusLivros.html  lista livros do usuário, com ajustes para empilhamento.
 
@@ -213,7 +383,7 @@ A página meusLivros.html  lista livros do usuário, com ajustes para empilhamen
 - '.ft_livro': `margin-left: 0; width: 100%;`. Imagem ocupa largura total.
 - '.form_cad': `margin-right: 0; width: 100%;`. Formulário ocupa largura total.
 
-## Responsividade na Página carrinho.html (Carrinho)
+#### Responsividade na Página carrinho.html (Carrinho)
 
 A página carrinho.html ajusta lista de itens e resumo para telas menores.
 
@@ -235,7 +405,7 @@ A página carrinho.html ajusta lista de itens e resumo para telas menores.
 - '.total': `font-size: 18px; font-weight: bold; color: #516EE3; border-top: 2px solid #ddd; padding-top: 15px; margin-top: 15px;`. Ajusta total.
 - '.formu_carrinho': `margin-top: 10px; padding: 12px; font-size: 14px;`. Ajusta input.
 
-## Ajustes Gerais de Responsividade no CSS
+#### Ajustes Gerais de Responsividade no CSS
 
 A media query principal aplica-se a todas as páginas: `@media (max-width: 768px) { ... }`.
 - 'body': `margin-top: 25px; font-family: "Poppins"; margin: 0;`. Remove margens padrão. 
