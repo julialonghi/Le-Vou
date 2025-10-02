@@ -64,7 +64,7 @@ Arrays no JavaScript são usados para preencher seções de páginas dinamicamen
 - Array 'livrosCarrinho' para itens no carrinho: `const livrosCarrinho = [ { titulo: "Corte de Espinhos e Rosas", autor: "Sarah J. Maas", preco: "R$ 35,50", imagem: "livro1.png" }, ... ]`.
 - Array 'meusLivros' para livros do usuário: `const meusLivros = [ { titulo: "Harry Potter e a Pedra Filosofal", autor: "J.K. Rowling", preco: "R$ 30,50", imagem: "livro_vender1.jpg", estado: "Ótimo" }, ... ]`.
 
-- Preenchimento de gêneros: Seleciona '.generos_juntos' e itera 'generos' para adicionar HTML: `generos.forEach(genero => { generosContainer.innerHTML += `<section class="sobre_gen"> <a href="${genero.link}" class="genero"> <img > </a> <h5> ${genero.nome} </h5> </section>`; })`. Aplicado em livros.html.
+- Preenchimento de gêneros: Seleciona '.generos_juntos' e itera 'generos' para adicionar HTML: "generos.forEach(genero => { generosContainer.innerHTML += `<section class="sobre_gen"> <a href="${genero.link}" class="genero"> <img > </a> <h5> ${genero.nome} </h5> </section>`; })". Aplicado em livros.html.
 - Preenchimento de promoções: Seleciona '.conj_promo' e adiciona imagens de 'promocoes.slice(0, 2)': `promocoes.slice(0, 2).forEach(promo => { promoContainer.innerHTML += `<img>`; })`. Aplicado em livros.html.
 - Preenchimento de livros populares: Seleciona '.populares', cria duas seções com imagens de 'livrosPopulares': `livrosPopulares.forEach(livro => { primeiraSecao.innerHTML += `<img class="pop_livros"">`; })` e similar para segunda seção. Aplicado em livros.html.
 - Preenchimento de promoção lateral: Seleciona '.promo' e adiciona 'promocoes[2]': `promoLateral.innerHTML = `<img>`;`. Aplicado em livros.html.
@@ -133,4 +133,3 @@ A media query principal aplica-se a todas as páginas: `@media (max-width: 768px
 - 'body': `margin-top: 25px; font-family: "Poppins"; margin: 0;`. Remove margens padrão. 
 - 'nav': `display: flex; justify-content: space-between; margin-top: 20px; margin-left: 70px; margin-right: 70px;`. Ajusta para telas menores via media. 
 - 'footer': `display: flex; justify-content: space-between; background-color: #7A7A7F; color: white; margin-top: 60px; padding: 30px; padding-left: 170px; padding-right: 170px;`. Empilha em telas menores devido ao flex.
-
