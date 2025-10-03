@@ -414,4 +414,4 @@ A media query principal aplica-se a todas as páginas: `@media (max-width: 768px
 
 # Conclusão
 
-Após a realização da etapa da lagarta, percebemos que a criação de um site é complexa, tivemos muita dificuldade em JavaScript e no momento de organizar o código, foi um trabalho de muito aprendizado, conseguimos explorar diversas maneiras de implementar o código, e trazer um impacto na sociedade pois o projeto tinha um caráter extensionista.
+Após a realização da etapa da lagarta, percebemos que a criação de um site é complexa, tivemos muita dificuldade em JavaScript e no momento de organizar o código, foi um trabalho de muito aprendizado, conseguimos explorar diversas maneiras de implementar o código, e trazer um impacto na sociedade pois o projeto tinha um caráter extensionista. Aplicando o conhecimento adquirido nas aulas, conseguimos otimizar o preenchimento das informações no HTML, por meio do JavaScript, percorrendo os arrays que continham os dados dos livros, tratando e inserindo diretamente no HTML, organizando de maneira mais amigável e facilitando a manipulação das informações que são visíveis nas páginas. 
